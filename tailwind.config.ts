@@ -18,7 +18,15 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				sans: ['Inter', 'system-ui', 'sans-serif'],
+				display: ['Oswald', 'system-ui', 'sans-serif']
+			},
 			colors: {
+				golden: {
+					DEFAULT: 'hsl(var(--golden))',
+					foreground: 'hsl(var(--golden-foreground))'
+				},
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
